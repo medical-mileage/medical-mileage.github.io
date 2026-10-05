@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-05';
+  var pickUpdated = '2026-10-06';
   var picks = [
-    { rank: '01', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '1.5%', up: 'いつもの約1.8倍', href: 'https://hapitas.jp/item/detail/itemid/92712' },
-    { rank: '02', site: 'ハピタス', name: 'Skyscanner（ホテル）', now: '3.2%', usual: '2.6%', up: 'いつもより約23%アップ', href: 'https://hapitas.jp/item/detail/itemid/99344' },
-    { rank: '03', site: 'モッピー', name: 'JALカード「CLUB EST」VISA【20代限定】', now: '9,000P', usual: '8,000P', up: 'いつもより約13%アップ', href: 'https://pc.moppy.jp/ad/detail.php?site_id=150572' },
-    { rank: '04', site: 'ハピタス', name: 'Skyscanner（航空券）', now: '1.7%', usual: '1.6%', up: 'いつもより約10%アップ', href: 'https://hapitas.jp/item/detail/itemid/99334' }
+    { rank: '01', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '1.7%', up: 'いつもの約1.7倍', href: 'https://hapitas.jp/item/detail/itemid/92712' },
+    { rank: '02', site: 'ハピタス', name: 'Skyscanner（ホテル）', now: '3.2%', usual: '2.7%', up: 'いつもより約21%アップ', href: 'https://hapitas.jp/item/detail/itemid/99344' },
+    { rank: '03', site: 'モッピー', name: 'JALカード「CLUB EST」VISA【20代限定】', now: '9,000P', usual: '8,091P', up: 'いつもより約11%アップ', href: 'https://pc.moppy.jp/ad/detail.php?site_id=150572' },
+    { rank: '04', site: 'ハピタス', name: 'Skyscanner（航空券）', now: '1.7%', usual: '1.6%', up: 'いつもより約9%アップ', href: 'https://hapitas.jp/item/detail/itemid/99334' }
   ];
   // PICKUP-DATA-END
 
@@ -23,11 +23,11 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-05';
+  var feedUpdated = '2026-10-06';
   var feed = [
     { source: 'Instagram', date: '2026.10.04', isNew: true, title: 'モッピーとハピタス、同じ案件ならどっちが高いのか。', href: 'https://www.instagram.com/p/DeDtpJGASqf/' },
-    { source: 'Instagram', date: '2026.10.02', isNew: true, title: '2026年10月1日から、JALの羽田－ロンドン線が、1日2往復（深夜便JL41/42・昼間便JL43/44）とも毎日A…', href: 'https://www.instagram.com/p/Dd_89FmDxs2/' },
-    { source: 'Instagram', date: '2026.10.02', isNew: true, title: 'ANAが、新しいビジネスクラス「THE Room FX」を発表しています。', href: 'https://www.instagram.com/p/Dd_mQ2ED-zz/' },
+    { source: 'Instagram', date: '2026.10.02', isNew: false, title: '2026年10月1日から、JALの羽田－ロンドン線が、1日2往復（深夜便JL41/42・昼間便JL43/44）とも毎日A…', href: 'https://www.instagram.com/p/Dd_89FmDxs2/' },
+    { source: 'Instagram', date: '2026.10.02', isNew: false, title: 'ANAが、新しいビジネスクラス「THE Room FX」を発表しています。', href: 'https://www.instagram.com/p/Dd_mQ2ED-zz/' },
     { source: 'note', date: '2026.10.01', isNew: false, title: 'なぜJALマイルでカタール航空に乗れるのか？3大アライアンスを知ると特典航空券の選択肢が3倍になる話', href: 'https://note.com/kentytimes_com/n/n61311459365f' },
     { source: 'Instagram', date: '2026.09.27', isNew: false, title: 'ビジネスクラスの座席が「1-2-1」と書いてあると、どれも同じ座席に思えますが、実は座席の向きと置き方で、大きく2つの系…', href: 'https://www.instagram.com/p/DdyOhXVj3fg/' },
     { source: 'Instagram', date: '2026.09.25', isNew: false, title: '「国内線の普通席って、どれも同じ」だと思ってませんか？', href: 'https://www.instagram.com/p/DdtJT5WE6dv/' },
