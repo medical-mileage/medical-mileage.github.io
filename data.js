@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-08';
+  var pickUpdated = '2026-10-09';
   var picks = [
-    { rank: '01', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '1.8%', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/92712' },
-    { rank: '02', site: 'ハピタス', name: 'Skyscanner（ホテル）', now: '3.2%', usual: '2.7%', up: 'いつもより約19%アップ', href: 'https://hapitas.jp/item/detail/itemid/99344' },
-    { rank: '03', site: 'モッピー', name: 'JALカード「CLUB EST」VISA【20代限定】', now: '9,000P', usual: '8,231P', up: 'いつもより約9%アップ', href: 'https://pc.moppy.jp/ad/detail.php?site_id=150572' },
-    { rank: '04', site: 'ハピタス', name: 'Skyscanner（航空券）', now: '1.7%', usual: '1.6%', up: 'いつもより約6%アップ', href: 'https://hapitas.jp/item/detail/itemid/99334' }
+    { rank: '01', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '1.9%', up: 'いつもより約47%アップ', href: 'https://hapitas.jp/item/detail/itemid/92712' },
+    { rank: '02', site: 'モッピー', name: '三井住友カード（NL）', now: '15,000P', usual: '11,769P', up: 'いつもより約27%アップ', href: 'https://pc.moppy.jp/ad/detail.php?site_id=149052' },
+    { rank: '03', site: 'ハピタス', name: 'Skyscanner（ホテル）', now: '3.2%', usual: '2.8%', up: 'いつもより約15%アップ', href: 'https://hapitas.jp/item/detail/itemid/99344' },
+    { rank: '04', site: 'モッピー', name: 'JALカード「CLUB EST」VISA【20代限定】', now: '9,000P', usual: '8,286P', up: 'いつもより約9%アップ', href: 'https://pc.moppy.jp/ad/detail.php?site_id=150572' }
   ];
   // PICKUP-DATA-END
 
