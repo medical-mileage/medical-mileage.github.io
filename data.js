@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-11';
+  var pickUpdated = '2026-10-12';
   var picks = [
-    { rank: '01', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '2.0%', up: 'いつもより約39%アップ', href: 'https://hapitas.jp/item/detail/itemid/92712' },
-    { rank: '02', site: 'ハピタス', name: '三菱UFJ銀行 口座開設', now: '20,500pt', usual: '15,100pt', up: 'いつもより約36%アップ', href: 'https://hapitas.jp/item/detail/itemid/92479' },
-    { rank: '03', site: 'モッピー', name: '三井住友カード（NL）', now: '15,000P', usual: '12,200P', up: 'いつもより約23%アップ', href: 'https://pc.moppy.jp/ad/detail.php?site_id=149052' },
-    { rank: '04', site: 'ハピタス', name: 'Skyscanner（ホテル）', now: '3.2%', usual: '2.8%', up: 'いつもより約13%アップ', href: 'https://hapitas.jp/item/detail/itemid/99344' }
+    { rank: '01', site: 'ハピタス', name: 'IHGホテルズ＆リゾーツ', now: '4.0%', usual: '2.6%', up: 'いつもの約1.5倍', href: 'https://hapitas.jp/item/detail/itemid/72867' },
+    { rank: '02', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '10,254pt', up: 'いつもより約41%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' },
+    { rank: '03', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '2.1%', up: 'いつもより約36%アップ', href: 'https://hapitas.jp/item/detail/itemid/92712' },
+    { rank: '04', site: 'ハピタス', name: '三菱UFJ銀行 口座開設', now: '20,500pt', usual: '15,438pt', up: 'いつもより約33%アップ', href: 'https://hapitas.jp/item/detail/itemid/92479' }
   ];
   // PICKUP-DATA-END
 
