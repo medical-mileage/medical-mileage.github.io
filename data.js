@@ -23,20 +23,20 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-07';
+  var feedUpdated = '2026-10-13';
   var feed = [
-    { source: 'Instagram', date: '2026.10.06', isNew: true, title: 'ビジネスクラスは高いけれど、エコノミーで長距離はつらい。', href: 'https://www.instagram.com/p/DeJ5FXwj06p/' },
-    { source: 'Instagram', date: '2026.10.04', isNew: true, title: 'モッピーとハピタス、同じ案件ならどっちが高いのか。', href: 'https://www.instagram.com/p/DeDtpJGASqf/' },
+    { source: 'Instagram', date: '2026.10.11', isNew: true, title: 'マイルを貯めたいけど、JALカードとANAカード、最初の1枚はどっちがいいの？', href: 'https://www.instagram.com/p/DeVZE6lmaod/' },
+    { source: 'Instagram', date: '2026.10.10', isNew: true, title: 'ドアの付いたビジネスクラスが、次々に登場しています', href: 'https://www.instagram.com/p/DeUWXlGGU29/' },
+    { source: 'Instagram', date: '2026.10.09', isNew: false, title: '航空会社のラウンジは、ビジネスクラスや上級会員だけのもの。', href: 'https://www.instagram.com/p/DeR4dMMj8MR/' },
+    { source: 'Instagram', date: '2026.10.06', isNew: false, title: 'ビジネスクラスは高いけれど、エコノミーで長距離はつらい。', href: 'https://www.instagram.com/p/DeJ5FXwj06p/' },
+    { source: 'Instagram', date: '2026.10.04', isNew: false, title: 'モッピーとハピタス、同じ案件ならどっちが高いのか。', href: 'https://www.instagram.com/p/DeDtpJGASqf/' },
     { source: 'Instagram', date: '2026.10.02', isNew: false, title: '2026年10月1日から、JALの羽田－ロンドン線が、1日2往復（深夜便JL41/42・昼間便JL43/44）とも毎日A…', href: 'https://www.instagram.com/p/Dd_89FmDxs2/' },
     { source: 'Instagram', date: '2026.10.02', isNew: false, title: 'ANAが、新しいビジネスクラス「THE Room FX」を発表しています。', href: 'https://www.instagram.com/p/Dd_mQ2ED-zz/' },
     { source: 'note', date: '2026.10.01', isNew: false, title: 'なぜJALマイルでカタール航空に乗れるのか？3大アライアンスを知ると特典航空券の選択肢が3倍になる話', href: 'https://note.com/kentytimes_com/n/n61311459365f' },
     { source: 'Instagram', date: '2026.09.27', isNew: false, title: 'ビジネスクラスの座席が「1-2-1」と書いてあると、どれも同じ座席に思えますが、実は座席の向きと置き方で、大きく2つの系…', href: 'https://www.instagram.com/p/DdyOhXVj3fg/' },
     { source: 'Instagram', date: '2026.09.25', isNew: false, title: '「国内線の普通席って、どれも同じ」だと思ってませんか？', href: 'https://www.instagram.com/p/DdtJT5WE6dv/' },
     { source: 'Instagram', date: '2026.09.24', isNew: false, title: '「A350に乗れば、Qsuiteに乗れる」', href: 'https://www.instagram.com/p/DdrPAsPj-Fy/' },
-    { source: 'Instagram', date: '2026.09.21', isNew: false, title: 'Skytrax「ワールド・エアライン・アワード2026」が、9月18日に発表されました', href: 'https://www.instagram.com/p/DdjK3n7j1KM/' },
-    { source: 'Instagram', date: '2026.09.20', isNew: false, title: 'エティハド航空が、5日間限定の「グローバルセール」を開催しています', href: 'https://www.instagram.com/p/DdhNJZqD6ML/' },
-    { source: 'note', date: '2026.09.05', isNew: false, title: '【1泊109,460円】ANAインターコンチネンタル石垣リゾート宿泊記｜"1回きり"だと思っていたアフタヌーンティーが実は2日間楽しめる話', href: 'https://note.com/kentytimes_com/n/ncc54a2b9688d' },
-    { source: 'note', date: '2026.08.24', isNew: false, title: 'アジアマイルの特典航空券でJALに搭乗｜医学生の福岡弾丸搭乗記', href: 'https://note.com/kentytimes_com/n/n90f18dbd7dff' }
+    { source: 'Instagram', date: '2026.09.21', isNew: false, title: 'Skytrax「ワールド・エアライン・アワード2026」が、9月18日に発表されました', href: 'https://www.instagram.com/p/DdjK3n7j1KM/' }
   ];
   // FEED-DATA-END
 
