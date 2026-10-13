@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-13';
+  var pickUpdated = '2026-10-14';
   var picks = [
-    { rank: '01', site: 'ハピタス', name: 'IHGホテルズ＆リゾーツ', now: '4.0%', usual: '2.7%', up: 'いつもより約48%アップ', href: 'https://hapitas.jp/item/detail/itemid/72867' },
-    { rank: '02', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '10,557pt', up: 'いつもより約37%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' },
+    { rank: '01', site: 'ハピタス', name: 'IHGホテルズ＆リゾーツ', now: '4.0%', usual: '2.8%', up: 'いつもより約43%アップ', href: 'https://hapitas.jp/item/detail/itemid/72867' },
+    { rank: '02', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '10,820pt', up: 'いつもより約34%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' },
     { rank: '03', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '2.1%', up: 'いつもより約33%アップ', href: 'https://hapitas.jp/item/detail/itemid/92712' },
-    { rank: '04', site: 'ハピタス', name: 'Skyscanner（ホテル）', now: '3.2%', usual: '2.9%', up: 'いつもより約10%アップ', href: 'https://hapitas.jp/item/detail/itemid/99344' }
+    { rank: '04', site: 'ハピタス', name: '三菱UFJ銀行 口座開設', now: '18,000pt', usual: '15,611pt', up: 'いつもより約15%アップ', href: 'https://hapitas.jp/item/detail/itemid/92479' }
   ];
   // PICKUP-DATA-END
 
@@ -23,10 +23,11 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-13';
+  var feedUpdated = '2026-10-14';
   var feed = [
+    { source: 'Instagram', date: '2026.10.13', isNew: true, title: 'A380は、総2階建ての世界最大の旅客機 その2階の一番前に、各社がいちばん特別な座席を置いています。', href: 'https://www.instagram.com/p/Deb5Q5-D9ye/' },
     { source: 'Instagram', date: '2026.10.11', isNew: true, title: 'マイルを貯めたいけど、JALカードとANAカード、最初の1枚はどっちがいいの？', href: 'https://www.instagram.com/p/DeVZE6lmaod/' },
-    { source: 'Instagram', date: '2026.10.10', isNew: true, title: 'ドアの付いたビジネスクラスが、次々に登場しています', href: 'https://www.instagram.com/p/DeUWXlGGU29/' },
+    { source: 'Instagram', date: '2026.10.10', isNew: false, title: 'ドアの付いたビジネスクラスが、次々に登場しています', href: 'https://www.instagram.com/p/DeUWXlGGU29/' },
     { source: 'Instagram', date: '2026.10.09', isNew: false, title: '航空会社のラウンジは、ビジネスクラスや上級会員だけのもの。', href: 'https://www.instagram.com/p/DeR4dMMj8MR/' },
     { source: 'note', date: '2026.10.06', isNew: false, title: '学生航空券でドイツへ｜キャセイパシフィック航空・香港乗り継ぎのリアルな搭乗記', href: 'https://note.com/kentytimes_com/n/n89790e8b08cd' },
     { source: 'Instagram', date: '2026.10.06', isNew: false, title: 'ビジネスクラスは高いけれど、エコノミーで長距離はつらい。', href: 'https://www.instagram.com/p/DeJ5FXwj06p/' },
@@ -35,8 +36,7 @@ window.SITE_DATA = (function () {
     { source: 'Instagram', date: '2026.10.02', isNew: false, title: 'ANAが、新しいビジネスクラス「THE Room FX」を発表しています。', href: 'https://www.instagram.com/p/Dd_mQ2ED-zz/' },
     { source: 'note', date: '2026.10.01', isNew: false, title: 'なぜJALマイルでカタール航空に乗れるのか？3大アライアンスを知ると特典航空券の選択肢が3倍になる話', href: 'https://note.com/kentytimes_com/n/n61311459365f' },
     { source: 'Instagram', date: '2026.09.27', isNew: false, title: 'ビジネスクラスの座席が「1-2-1」と書いてあると、どれも同じ座席に思えますが、実は座席の向きと置き方で、大きく2つの系…', href: 'https://www.instagram.com/p/DdyOhXVj3fg/' },
-    { source: 'Instagram', date: '2026.09.25', isNew: false, title: '「国内線の普通席って、どれも同じ」だと思ってませんか？', href: 'https://www.instagram.com/p/DdtJT5WE6dv/' },
-    { source: 'Instagram', date: '2026.09.24', isNew: false, title: '「A350に乗れば、Qsuiteに乗れる」', href: 'https://www.instagram.com/p/DdrPAsPj-Fy/' }
+    { source: 'Instagram', date: '2026.09.25', isNew: false, title: '「国内線の普通席って、どれも同じ」だと思ってませんか？', href: 'https://www.instagram.com/p/DdtJT5WE6dv/' }
   ];
   // FEED-DATA-END
 
