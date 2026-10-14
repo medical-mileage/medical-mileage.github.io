@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-14';
+  var pickUpdated = '2026-10-15';
   var picks = [
     { rank: '01', site: 'ハピタス', name: 'IHGホテルズ＆リゾーツ', now: '4.0%', usual: '2.8%', up: 'いつもより約43%アップ', href: 'https://hapitas.jp/item/detail/itemid/72867' },
-    { rank: '02', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '10,820pt', up: 'いつもより約34%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' },
-    { rank: '03', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '2.1%', up: 'いつもより約33%アップ', href: 'https://hapitas.jp/item/detail/itemid/92712' },
-    { rank: '04', site: 'ハピタス', name: '三菱UFJ銀行 口座開設', now: '18,000pt', usual: '15,611pt', up: 'いつもより約15%アップ', href: 'https://hapitas.jp/item/detail/itemid/92479' }
+    { rank: '02', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '11,050pt', up: 'いつもより約31%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' },
+    { rank: '03', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '2.2%', up: 'いつもより約27%アップ', href: 'https://hapitas.jp/item/detail/itemid/92712' },
+    { rank: '04', site: 'ハピタス', name: '三菱UFJ銀行 口座開設', now: '18,000pt', usual: '15,737pt', up: 'いつもより約14%アップ', href: 'https://hapitas.jp/item/detail/itemid/92479' }
   ];
   // PICKUP-DATA-END
 
@@ -23,10 +23,10 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-14';
+  var feedUpdated = '2026-10-15';
   var feed = [
     { source: 'Instagram', date: '2026.10.13', isNew: true, title: 'A380は、総2階建ての世界最大の旅客機 その2階の一番前に、各社がいちばん特別な座席を置いています。', href: 'https://www.instagram.com/p/Deb5Q5-D9ye/' },
-    { source: 'Instagram', date: '2026.10.11', isNew: true, title: 'マイルを貯めたいけど、JALカードとANAカード、最初の1枚はどっちがいいの？', href: 'https://www.instagram.com/p/DeVZE6lmaod/' },
+    { source: 'Instagram', date: '2026.10.11', isNew: false, title: 'マイルを貯めたいけど、JALカードとANAカード、最初の1枚はどっちがいいの？', href: 'https://www.instagram.com/p/DeVZE6lmaod/' },
     { source: 'Instagram', date: '2026.10.10', isNew: false, title: 'ドアの付いたビジネスクラスが、次々に登場しています', href: 'https://www.instagram.com/p/DeUWXlGGU29/' },
     { source: 'Instagram', date: '2026.10.09', isNew: false, title: '航空会社のラウンジは、ビジネスクラスや上級会員だけのもの。', href: 'https://www.instagram.com/p/DeR4dMMj8MR/' },
     { source: 'note', date: '2026.10.06', isNew: false, title: '学生航空券でドイツへ｜キャセイパシフィック航空・香港乗り継ぎのリアルな搭乗記', href: 'https://note.com/kentytimes_com/n/n89790e8b08cd' },
