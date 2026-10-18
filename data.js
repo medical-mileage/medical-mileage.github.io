@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-18';
+  var pickUpdated = '2026-10-19';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'Apple公式サイト', now: '5.0%', usual: '1.5%', up: 'いつもの約3.3倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6716' },
-    { rank: '02', site: 'モッピー', name: 'リクルートカード', now: '5,000P', usual: '2,714P', up: 'いつもの約1.8倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=123793' },
-    { rank: '03', site: 'ハピタス', name: 'リクルートカード', now: '4,500pt', usual: '2,557pt', up: 'いつもの約1.8倍', href: 'https://hapitas.jp/item/detail/itemid/49829/' },
-    { rank: '04', site: 'モッピー', name: '楽天証券', now: '20,000P', usual: '14,286P', up: 'いつもより約40%アップ', href: 'https://pc.moppy.jp/ad/detail.php?site_id=111069' }
+    { rank: '01', site: 'モッピー', name: 'Apple公式サイト', now: '5.0%', usual: '1.7%', up: 'いつもの約2.9倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6716' },
+    { rank: '02', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '1.8%', up: 'いつもの約2.8倍', href: 'https://hapitas.jp/item/detail/itemid/73279' },
+    { rank: '03', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '11,740pt', up: 'いつもより約24%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' },
+    { rank: '04', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '2.3%', up: 'いつもより約22%アップ', href: 'https://hapitas.jp/item/detail/itemid/92712' }
   ];
   // PICKUP-DATA-END
 
@@ -23,11 +23,12 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-18';
+  var feedUpdated = '2026-10-19';
   var feed = [
+    { source: 'Instagram', date: '2026.10.18', isNew: true, title: 'モッピーとハピタス、毎朝9時に還元率を自動記録する企画。', href: 'https://www.instagram.com/p/Deo9vOwj-16/' },
     { source: 'note', date: '2026.10.17', isNew: true, title: '【宿泊記】JWマリオット・ホテル東京に誕生日ステイ｜アーバンデラックスキング・プール・朝食まで全部レビュー', href: 'https://note.com/kentytimes_com/n/na17c1db6fad4' },
     { source: 'Instagram', date: '2026.10.16', isNew: true, title: 'JALとANA、同じ日本の航空会社なのに、実は属しているグループが違うって知っていますか?', href: 'https://www.instagram.com/p/DejfEF1j9nl/' },
-    { source: 'Instagram', date: '2026.10.15', isNew: true, title: 'モッピーで「ANAマイル実質60%」「JALマイル実質80%」というキャンペーンが同時に始まっています。', href: 'https://www.instagram.com/p/Deg6RLFDzDP/' },
+    { source: 'Instagram', date: '2026.10.15', isNew: false, title: 'モッピーで「ANAマイル実質60%」「JALマイル実質80%」というキャンペーンが同時に始まっています。', href: 'https://www.instagram.com/p/Deg6RLFDzDP/' },
     { source: 'Instagram', date: '2026.10.13', isNew: false, title: 'A380は、総2階建ての世界最大の旅客機 その2階の一番前に、各社がいちばん特別な座席を置いています。', href: 'https://www.instagram.com/p/Deb5Q5-D9ye/' },
     { source: 'Instagram', date: '2026.10.11', isNew: false, title: 'マイルを貯めたいけど、JALカードとANAカード、最初の1枚はどっちがいいの？', href: 'https://www.instagram.com/p/DeVZE6lmaod/' },
     { source: 'Instagram', date: '2026.10.10', isNew: false, title: 'ドアの付いたビジネスクラスが、次々に登場しています', href: 'https://www.instagram.com/p/DeUWXlGGU29/' },
@@ -35,8 +36,7 @@ window.SITE_DATA = (function () {
     { source: 'note', date: '2026.10.06', isNew: false, title: '学生航空券でドイツへ｜キャセイパシフィック航空・香港乗り継ぎのリアルな搭乗記', href: 'https://note.com/kentytimes_com/n/n89790e8b08cd' },
     { source: 'Instagram', date: '2026.10.06', isNew: false, title: 'ビジネスクラスは高いけれど、エコノミーで長距離はつらい。', href: 'https://www.instagram.com/p/DeJ5FXwj06p/' },
     { source: 'Instagram', date: '2026.10.04', isNew: false, title: 'モッピーとハピタス、同じ案件ならどっちが高いのか。', href: 'https://www.instagram.com/p/DeDtpJGASqf/' },
-    { source: 'Instagram', date: '2026.10.02', isNew: false, title: '2026年10月1日から、JALの羽田－ロンドン線が、1日2往復（深夜便JL41/42・昼間便JL43/44）とも毎日A…', href: 'https://www.instagram.com/p/Dd_89FmDxs2/' },
-    { source: 'Instagram', date: '2026.10.02', isNew: false, title: 'ANAが、新しいビジネスクラス「THE Room FX」を発表しています。', href: 'https://www.instagram.com/p/Dd_mQ2ED-zz/' }
+    { source: 'Instagram', date: '2026.10.02', isNew: false, title: '2026年10月1日から、JALの羽田－ロンドン線が、1日2往復（深夜便JL41/42・昼間便JL43/44）とも毎日A…', href: 'https://www.instagram.com/p/Dd_89FmDxs2/' }
   ];
   // FEED-DATA-END
 
