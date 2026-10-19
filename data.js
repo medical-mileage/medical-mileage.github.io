@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-19';
+  var pickUpdated = '2026-10-20';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'Apple公式サイト', now: '5.0%', usual: '1.7%', up: 'いつもの約2.9倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6716' },
-    { rank: '02', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '1.8%', up: 'いつもの約2.8倍', href: 'https://hapitas.jp/item/detail/itemid/73279' },
-    { rank: '03', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '11,740pt', up: 'いつもより約24%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' },
-    { rank: '04', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '2.3%', up: 'いつもより約22%アップ', href: 'https://hapitas.jp/item/detail/itemid/92712' }
+    { rank: '01', site: 'モッピー', name: 'Apple公式サイト', now: '5.0%', usual: '1.8%', up: 'いつもの約2.8倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6716' },
+    { rank: '02', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '1.9%', up: 'いつもの約2.6倍', href: 'https://hapitas.jp/item/detail/itemid/73279' },
+    { rank: '03', site: 'ハピタス', name: '三菱UFJ銀行 口座開設', now: '24,000pt', usual: '14,708pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/92479' },
+    { rank: '04', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '11,871pt', up: 'いつもより約22%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' }
   ];
   // PICKUP-DATA-END
 
@@ -23,11 +23,11 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-19';
+  var feedUpdated = '2026-10-20';
   var feed = [
     { source: 'Instagram', date: '2026.10.18', isNew: true, title: 'モッピーとハピタス、毎朝9時に還元率を自動記録する企画。', href: 'https://www.instagram.com/p/Deo9vOwj-16/' },
     { source: 'note', date: '2026.10.17', isNew: true, title: '【宿泊記】JWマリオット・ホテル東京に誕生日ステイ｜アーバンデラックスキング・プール・朝食まで全部レビュー', href: 'https://note.com/kentytimes_com/n/na17c1db6fad4' },
-    { source: 'Instagram', date: '2026.10.16', isNew: true, title: 'JALとANA、同じ日本の航空会社なのに、実は属しているグループが違うって知っていますか?', href: 'https://www.instagram.com/p/DejfEF1j9nl/' },
+    { source: 'Instagram', date: '2026.10.16', isNew: false, title: 'JALとANA、同じ日本の航空会社なのに、実は属しているグループが違うって知っていますか?', href: 'https://www.instagram.com/p/DejfEF1j9nl/' },
     { source: 'Instagram', date: '2026.10.15', isNew: false, title: 'モッピーで「ANAマイル実質60%」「JALマイル実質80%」というキャンペーンが同時に始まっています。', href: 'https://www.instagram.com/p/Deg6RLFDzDP/' },
     { source: 'Instagram', date: '2026.10.13', isNew: false, title: 'A380は、総2階建ての世界最大の旅客機 その2階の一番前に、各社がいちばん特別な座席を置いています。', href: 'https://www.instagram.com/p/Deb5Q5-D9ye/' },
     { source: 'Instagram', date: '2026.10.11', isNew: false, title: 'マイルを貯めたいけど、JALカードとANAカード、最初の1枚はどっちがいいの？', href: 'https://www.instagram.com/p/DeVZE6lmaod/' },
