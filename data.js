@@ -4,9 +4,9 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-21';
+  var pickUpdated = '2026-10-22';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'Apple公式サイト', now: '5.0%', usual: '2.0%', up: 'いつもの約2.5倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6716' },
+    { rank: '01', site: 'モッピー', name: 'Apple公式サイト', now: '5.0%', usual: '2.1%', up: 'いつもの約2.4倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6716' },
     { rank: '02', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '2.1%', up: 'いつもの約2.4倍', href: 'https://hapitas.jp/item/detail/itemid/73279' },
     { rank: '03', site: 'ハピタス', name: '三菱UFJ銀行 口座開設', now: '24,000pt', usual: '15,080pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/92479' },
     { rank: '04', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '11,991pt', up: 'いつもより約21%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' }
@@ -23,10 +23,10 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-21';
+  var feedUpdated = '2026-10-22';
   var feed = [
     { source: 'Instagram', date: '2026.10.20', isNew: true, title: '2026年8月、学生航空券でドイツへ。', href: 'https://www.instagram.com/p/DeuFmeTj7xb/' },
-    { source: 'Instagram', date: '2026.10.18', isNew: true, title: 'モッピーとハピタス、毎朝9時に還元率を自動記録する企画。', href: 'https://www.instagram.com/p/Deo9vOwj-16/' },
+    { source: 'Instagram', date: '2026.10.18', isNew: false, title: 'モッピーとハピタス、毎朝9時に還元率を自動記録する企画。', href: 'https://www.instagram.com/p/Deo9vOwj-16/' },
     { source: 'note', date: '2026.10.17', isNew: false, title: '【宿泊記】JWマリオット・ホテル東京に誕生日ステイ｜アーバンデラックスキング・プール・朝食まで全部レビュー', href: 'https://note.com/kentytimes_com/n/na17c1db6fad4' },
     { source: 'Instagram', date: '2026.10.16', isNew: false, title: 'JALとANA、同じ日本の航空会社なのに、実は属しているグループが違うって知っていますか?', href: 'https://www.instagram.com/p/DejfEF1j9nl/' },
     { source: 'Instagram', date: '2026.10.15', isNew: false, title: 'モッピーで「ANAマイル実質60%」「JALマイル実質80%」というキャンペーンが同時に始まっています。', href: 'https://www.instagram.com/p/Deg6RLFDzDP/' },
