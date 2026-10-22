@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-22';
+  var pickUpdated = '2026-10-23';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'Apple公式サイト', now: '5.0%', usual: '2.1%', up: 'いつもの約2.4倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6716' },
-    { rank: '02', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '2.1%', up: 'いつもの約2.4倍', href: 'https://hapitas.jp/item/detail/itemid/73279' },
-    { rank: '03', site: 'ハピタス', name: '三菱UFJ銀行 口座開設', now: '24,000pt', usual: '15,080pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/92479' },
-    { rank: '04', site: 'ハピタス', name: '三菱UFJカード', now: '14,500pt', usual: '11,991pt', up: 'いつもより約21%アップ', href: 'https://hapitas.jp/item/detail/itemid/100868' }
+    { rank: '01', site: 'モッピー', name: 'Apple公式サイト', now: '5.0%', usual: '2.2%', up: 'いつもの約2.3倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6716' },
+    { rank: '02', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '2.2%', up: 'いつもの約2.3倍', href: 'https://hapitas.jp/item/detail/itemid/73279' },
+    { rank: '03', site: 'モッピー', name: 'リクルートカード', now: '4,000P', usual: '2,250P', up: 'いつもの約1.8倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=123793' },
+    { rank: '04', site: 'ハピタス', name: 'リクルートカード', now: '4,000pt', usual: '2,291pt', up: 'いつもの約1.7倍', href: 'https://hapitas.jp/item/detail/itemid/49829/' }
   ];
   // PICKUP-DATA-END
 
@@ -23,8 +23,9 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-22';
+  var feedUpdated = '2026-10-23';
   var feed = [
+    { source: 'Instagram', date: '2026.10.22', isNew: true, title: '香港での乗り継ぎが11時間以上。', href: 'https://www.instagram.com/p/Dey70b-D9Iu/' },
     { source: 'Instagram', date: '2026.10.20', isNew: true, title: '2026年8月、学生航空券でドイツへ。', href: 'https://www.instagram.com/p/DeuFmeTj7xb/' },
     { source: 'Instagram', date: '2026.10.18', isNew: false, title: 'モッピーとハピタス、毎朝9時に還元率を自動記録する企画。', href: 'https://www.instagram.com/p/Deo9vOwj-16/' },
     { source: 'note', date: '2026.10.17', isNew: false, title: '【宿泊記】JWマリオット・ホテル東京に誕生日ステイ｜アーバンデラックスキング・プール・朝食まで全部レビュー', href: 'https://note.com/kentytimes_com/n/na17c1db6fad4' },
@@ -35,8 +36,7 @@ window.SITE_DATA = (function () {
     { source: 'Instagram', date: '2026.10.10', isNew: false, title: 'ドアの付いたビジネスクラスが、次々に登場しています', href: 'https://www.instagram.com/p/DeUWXlGGU29/' },
     { source: 'Instagram', date: '2026.10.09', isNew: false, title: '航空会社のラウンジは、ビジネスクラスや上級会員だけのもの。', href: 'https://www.instagram.com/p/DeR4dMMj8MR/' },
     { source: 'note', date: '2026.10.06', isNew: false, title: '学生航空券でドイツへ｜キャセイパシフィック航空・香港乗り継ぎのリアルな搭乗記', href: 'https://note.com/kentytimes_com/n/n89790e8b08cd' },
-    { source: 'Instagram', date: '2026.10.06', isNew: false, title: 'ビジネスクラスは高いけれど、エコノミーで長距離はつらい。', href: 'https://www.instagram.com/p/DeJ5FXwj06p/' },
-    { source: 'Instagram', date: '2026.10.04', isNew: false, title: 'モッピーとハピタス、同じ案件ならどっちが高いのか。', href: 'https://www.instagram.com/p/DeDtpJGASqf/' }
+    { source: 'Instagram', date: '2026.10.06', isNew: false, title: 'ビジネスクラスは高いけれど、エコノミーで長距離はつらい。', href: 'https://www.instagram.com/p/DeJ5FXwj06p/' }
   ];
   // FEED-DATA-END
 
