@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-23';
+  var pickUpdated = '2026-10-24';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'Apple公式サイト', now: '5.0%', usual: '2.2%', up: 'いつもの約2.3倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6716' },
-    { rank: '02', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '2.2%', up: 'いつもの約2.3倍', href: 'https://hapitas.jp/item/detail/itemid/73279' },
-    { rank: '03', site: 'モッピー', name: 'リクルートカード', now: '4,000P', usual: '2,250P', up: 'いつもの約1.8倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=123793' },
-    { rank: '04', site: 'ハピタス', name: 'リクルートカード', now: '4,000pt', usual: '2,291pt', up: 'いつもの約1.7倍', href: 'https://hapitas.jp/item/detail/itemid/49829/' }
+    { rank: '01', site: 'ハピタス', name: 'Klook', now: '7.0%', usual: '2.9%', up: 'いつもの約2.4倍', href: 'https://hapitas.jp/item/detail/itemid/81523/' },
+    { rank: '02', site: 'ハピタス', name: 'JTB（国内）', now: '2.9%', usual: '1.3%', up: 'いつもの約2.2倍', href: 'https://hapitas.jp/item/detail/itemid/45341/' },
+    { rank: '03', site: 'ハピタス', name: 'JTB（海外）', now: '2.4%', usual: '1.1%', up: 'いつもの約2.2倍', href: 'https://hapitas.jp/item/detail/itemid/58872/' },
+    { rank: '04', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '2.3%', up: 'いつもの約2.2倍', href: 'https://hapitas.jp/item/detail/itemid/73279' }
   ];
   // PICKUP-DATA-END
 
@@ -23,10 +23,10 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-23';
+  var feedUpdated = '2026-10-24';
   var feed = [
     { source: 'Instagram', date: '2026.10.22', isNew: true, title: '香港での乗り継ぎが11時間以上。', href: 'https://www.instagram.com/p/Dey70b-D9Iu/' },
-    { source: 'Instagram', date: '2026.10.20', isNew: true, title: '2026年8月、学生航空券でドイツへ。', href: 'https://www.instagram.com/p/DeuFmeTj7xb/' },
+    { source: 'Instagram', date: '2026.10.20', isNew: false, title: '2026年8月、学生航空券でドイツへ。', href: 'https://www.instagram.com/p/DeuFmeTj7xb/' },
     { source: 'Instagram', date: '2026.10.18', isNew: false, title: 'モッピーとハピタス、毎朝9時に還元率を自動記録する企画。', href: 'https://www.instagram.com/p/Deo9vOwj-16/' },
     { source: 'note', date: '2026.10.17', isNew: false, title: '【宿泊記】JWマリオット・ホテル東京に誕生日ステイ｜アーバンデラックスキング・プール・朝食まで全部レビュー', href: 'https://note.com/kentytimes_com/n/na17c1db6fad4' },
     { source: 'Instagram', date: '2026.10.16', isNew: false, title: 'JALとANA、同じ日本の航空会社なのに、実は属しているグループが違うって知っていますか?', href: 'https://www.instagram.com/p/DejfEF1j9nl/' },
