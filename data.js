@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-24';
+  var pickUpdated = '2026-10-25';
   var picks = [
-    { rank: '01', site: 'ハピタス', name: 'Klook', now: '7.0%', usual: '2.9%', up: 'いつもの約2.4倍', href: 'https://hapitas.jp/item/detail/itemid/81523/' },
-    { rank: '02', site: 'ハピタス', name: 'JTB（国内）', now: '2.9%', usual: '1.3%', up: 'いつもの約2.2倍', href: 'https://hapitas.jp/item/detail/itemid/45341/' },
-    { rank: '03', site: 'ハピタス', name: 'JTB（海外）', now: '2.4%', usual: '1.1%', up: 'いつもの約2.2倍', href: 'https://hapitas.jp/item/detail/itemid/58872/' },
-    { rank: '04', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '2.3%', up: 'いつもの約2.2倍', href: 'https://hapitas.jp/item/detail/itemid/73279' }
+    { rank: '01', site: 'ハピタス', name: 'Klook', now: '7.0%', usual: '3.2%', up: 'いつもの約2.2倍', href: 'https://hapitas.jp/item/detail/itemid/81523/' },
+    { rank: '02', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '2.4%', up: 'いつもの約2.1倍', href: 'https://hapitas.jp/item/detail/itemid/73279' },
+    { rank: '03', site: 'ハピタス', name: 'JTB（海外）', now: '2.4%', usual: '1.2%', up: 'いつもの約2.0倍', href: 'https://hapitas.jp/item/detail/itemid/58872/' },
+    { rank: '04', site: 'ハピタス', name: 'JTB（国内）', now: '2.9%', usual: '1.5%', up: 'いつもの約1.9倍', href: 'https://hapitas.jp/item/detail/itemid/45341/' }
   ];
   // PICKUP-DATA-END
 
@@ -23,8 +23,10 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-24';
+  var feedUpdated = '2026-10-25';
   var feed = [
+    { source: 'Instagram', date: '2026.10.23', isNew: true, title: 'ファーストクラスが、減っています', href: 'https://www.instagram.com/p/De1_n33D-uL/' },
+    { source: 'Instagram', date: '2026.10.23', isNew: true, title: '飛行機の座席番号、「H」の次が「J」になっているのに気づいたことはありますか？', href: 'https://www.instagram.com/p/De1-7OnD_Ht/' },
     { source: 'Instagram', date: '2026.10.22', isNew: true, title: '香港での乗り継ぎが11時間以上。', href: 'https://www.instagram.com/p/Dey70b-D9Iu/' },
     { source: 'Instagram', date: '2026.10.20', isNew: false, title: '2026年8月、学生航空券でドイツへ。', href: 'https://www.instagram.com/p/DeuFmeTj7xb/' },
     { source: 'Instagram', date: '2026.10.18', isNew: false, title: 'モッピーとハピタス、毎朝9時に還元率を自動記録する企画。', href: 'https://www.instagram.com/p/Deo9vOwj-16/' },
@@ -34,9 +36,7 @@ window.SITE_DATA = (function () {
     { source: 'Instagram', date: '2026.10.13', isNew: false, title: 'A380は、総2階建ての世界最大の旅客機 その2階の一番前に、各社がいちばん特別な座席を置いています。', href: 'https://www.instagram.com/p/Deb5Q5-D9ye/' },
     { source: 'Instagram', date: '2026.10.11', isNew: false, title: 'マイルを貯めたいけど、JALカードとANAカード、最初の1枚はどっちがいいの？', href: 'https://www.instagram.com/p/DeVZE6lmaod/' },
     { source: 'Instagram', date: '2026.10.10', isNew: false, title: 'ドアの付いたビジネスクラスが、次々に登場しています', href: 'https://www.instagram.com/p/DeUWXlGGU29/' },
-    { source: 'Instagram', date: '2026.10.09', isNew: false, title: '航空会社のラウンジは、ビジネスクラスや上級会員だけのもの。', href: 'https://www.instagram.com/p/DeR4dMMj8MR/' },
-    { source: 'note', date: '2026.10.06', isNew: false, title: '学生航空券でドイツへ｜キャセイパシフィック航空・香港乗り継ぎのリアルな搭乗記', href: 'https://note.com/kentytimes_com/n/n89790e8b08cd' },
-    { source: 'Instagram', date: '2026.10.06', isNew: false, title: 'ビジネスクラスは高いけれど、エコノミーで長距離はつらい。', href: 'https://www.instagram.com/p/DeJ5FXwj06p/' }
+    { source: 'Instagram', date: '2026.10.09', isNew: false, title: '航空会社のラウンジは、ビジネスクラスや上級会員だけのもの。', href: 'https://www.instagram.com/p/DeR4dMMj8MR/' }
   ];
   // FEED-DATA-END
 
