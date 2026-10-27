@@ -4,10 +4,10 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '10月';
-  var pickUpdated = '2026-10-27';
+  var pickUpdated = '2026-10-28';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'Trip.com（航空券）', now: '5.0%', usual: '0.7%', up: 'いつもの約7.1倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=4876' },
-    { rank: '02', site: 'モッピー', name: 'Trip.com（ホテル）', now: '15.0%', usual: '4.3%', up: 'いつもの約3.5倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=4205' },
+    { rank: '01', site: 'モッピー', name: 'Trip.com（航空券）', now: '5.0%', usual: '0.9%', up: 'いつもの約5.6倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=4876' },
+    { rank: '02', site: 'モッピー', name: 'Trip.com（ホテル）', now: '15.0%', usual: '4.7%', up: 'いつもの約3.2倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=4205' },
     { rank: '03', site: 'ハピタス', name: 'Apple公式サイト', now: '5.0%', usual: '2.6%', up: 'いつもの約1.9倍', href: 'https://hapitas.jp/item/detail/itemid/73279' },
     { rank: '04', site: 'ハピタス', name: 'IHGホテルズ＆リゾーツ', now: '4.0%', usual: '2.8%', up: 'いつもより約43%アップ', href: 'https://hapitas.jp/item/detail/itemid/72867' }
   ];
@@ -23,8 +23,10 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-10-27';
+  var feedUpdated = '2026-10-28';
   var feed = [
+    { source: 'Instagram', date: '2026.10.27', isNew: true, title: 'Trip.comでホテルを予約するとき、どこを経由していますか？', href: 'https://www.instagram.com/reel/DfAAzO8ib6m/' },
+    { source: 'Instagram', date: '2026.10.27', isNew: true, title: '記念日のホテル、何で選んでいますか？', href: 'https://www.instagram.com/reel/De_zrHgjSlr/' },
     { source: 'Instagram', date: '2026.10.26', isNew: true, title: '香港での乗り継ぎが11時間以上。', href: 'https://www.instagram.com/p/De9PBsZo_Qy/' },
     { source: 'Instagram', date: '2026.10.25', isNew: true, title: 'ファーストクラスが、減っています', href: 'https://www.instagram.com/p/De6qMqfj2UA/' },
     { source: 'Instagram', date: '2026.10.25', isNew: true, title: 'モッピーとハピタス、今日はどっちが得だと思いますか？', href: 'https://www.instagram.com/reel/De6nuNVjvoW/' },
@@ -34,9 +36,7 @@ window.SITE_DATA = (function () {
     { source: 'note', date: '2026.10.17', isNew: false, title: '【宿泊記】JWマリオット・ホテル東京に誕生日ステイ｜アーバンデラックスキング・プール・朝食まで全部レビュー', href: 'https://note.com/kentytimes_com/n/na17c1db6fad4' },
     { source: 'Instagram', date: '2026.10.16', isNew: false, title: 'JALとANA、同じ日本の航空会社なのに、実は属しているグループが違うって知っていますか?', href: 'https://www.instagram.com/p/DejfEF1j9nl/' },
     { source: 'Instagram', date: '2026.10.15', isNew: false, title: 'モッピーで「ANAマイル実質60%」「JALマイル実質80%」というキャンペーンが同時に始まっています。', href: 'https://www.instagram.com/p/Deg6RLFDzDP/' },
-    { source: 'Instagram', date: '2026.10.13', isNew: false, title: 'A380は、総2階建ての世界最大の旅客機 その2階の一番前に、各社がいちばん特別な座席を置いています。', href: 'https://www.instagram.com/p/Deb5Q5-D9ye/' },
-    { source: 'Instagram', date: '2026.10.11', isNew: false, title: 'マイルを貯めたいけど、JALカードとANAカード、最初の1枚はどっちがいいの？', href: 'https://www.instagram.com/p/DeVZE6lmaod/' },
-    { source: 'Instagram', date: '2026.10.10', isNew: false, title: 'ドアの付いたビジネスクラスが、次々に登場しています', href: 'https://www.instagram.com/p/DeUWXlGGU29/' }
+    { source: 'Instagram', date: '2026.10.13', isNew: false, title: 'A380は、総2階建ての世界最大の旅客機 その2階の一番前に、各社がいちばん特別な座席を置いています。', href: 'https://www.instagram.com/p/Deb5Q5-D9ye/' }
   ];
   // FEED-DATA-END
 
