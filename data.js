@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '11月';
-  var pickUpdated = '2026-11-01';
+  var pickUpdated = '2026-11-02';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'JCBカードW', now: '7,000P', usual: '2,714P', up: 'いつもの約2.6倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' },
-    { rank: '02', site: 'モッピー', name: 'リクルートカード', now: '5,000P', usual: '2,571P', up: 'いつもの約1.9倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=123793' },
-    { rank: '03', site: 'ハピタス', name: 'JCBカードW', now: '10,000pt', usual: '5,250pt', up: 'いつもの約1.9倍', href: 'https://hapitas.jp/item/detail/itemid/73806/' },
-    { rank: '04', site: 'ハピタス', name: 'リクルートカード', now: '4,500pt', usual: '2,555pt', up: 'いつもの約1.8倍', href: 'https://hapitas.jp/item/detail/itemid/49829/' }
+    { rank: '01', site: 'モッピー', name: 'JCBカードW', now: '7,000P', usual: '2,909P', up: 'いつもの約2.4倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' },
+    { rank: '02', site: 'ハピタス', name: 'Klook', now: '5.0%', usual: '3.2%', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/81523/' },
+    { rank: '03', site: 'ハピタス', name: 'JCBカードW', now: '8,000pt', usual: '5,381pt', up: 'いつもより約49%アップ', href: 'https://hapitas.jp/item/detail/itemid/73806/' },
+    { rank: '04', site: 'モッピー', name: '楽天証券', now: '20,000P', usual: '13,636P', up: 'いつもより約47%アップ', href: 'https://pc.moppy.jp/ad/detail.php?site_id=111069' }
   ];
   // PICKUP-DATA-END
 
@@ -23,11 +23,12 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-11-01';
+  var feedUpdated = '2026-11-02';
   var feed = [
+    { source: 'Instagram', date: '2026.10.31', isNew: true, title: 'ポイントサイトのポイント、JALマイルに変えきれずに余っていませんか？', href: 'https://www.instagram.com/p/DfLJq-UE5YK/' },
     { source: 'Instagram', date: '2026.10.30', isNew: true, title: '飛行機の座席番号、「H」の次がいきなり「J」になっているのに気づいたことはありますか？', href: 'https://www.instagram.com/reel/DfHzf00kbxy/' },
     { source: 'Instagram', date: '2026.10.30', isNew: true, title: '飛行機の座席番号、「H」の次がいきなり「J」になっているのに気づいたことはありますか？', href: 'https://www.instagram.com/reel/DfHiFJKjQ9R/' },
-    { source: 'Instagram', date: '2026.10.29', isNew: true, title: 'エミレーツのビジネスは、どの機材でも1-2-1だと思っていませんか？', href: 'https://www.instagram.com/p/DfE9YNYD_FJ/' },
+    { source: 'Instagram', date: '2026.10.29', isNew: false, title: 'エミレーツのビジネスは、どの機材でも1-2-1だと思っていませんか？', href: 'https://www.instagram.com/p/DfE9YNYD_FJ/' },
     { source: 'Instagram', date: '2026.10.28', isNew: false, title: '「A350ならQsuite」だと思っていませんか？', href: 'https://www.instagram.com/reel/DfCc-t8AQcz/' },
     { source: 'Instagram', date: '2026.10.27', isNew: false, title: 'Trip.comでホテルを予約するとき、どこを経由していますか？', href: 'https://www.instagram.com/reel/DfAAzO8ib6m/' },
     { source: 'Instagram', date: '2026.10.27', isNew: false, title: '記念日のホテル、何で選んでいますか？', href: 'https://www.instagram.com/reel/De_zrHgjSlr/' },
@@ -35,8 +36,7 @@ window.SITE_DATA = (function () {
     { source: 'Instagram', date: '2026.10.25', isNew: false, title: 'ファーストクラスが、減っています', href: 'https://www.instagram.com/p/De6qMqfj2UA/' },
     { source: 'Instagram', date: '2026.10.25', isNew: false, title: 'モッピーとハピタス、今日はどっちが得だと思いますか？', href: 'https://www.instagram.com/reel/De6nuNVjvoW/' },
     { source: 'Instagram', date: '2026.10.23', isNew: false, title: '飛行機の座席番号、「H」の次が「J」になっているのに気づいたことはありますか？', href: 'https://www.instagram.com/p/De1-7OnD_Ht/' },
-    { source: 'Instagram', date: '2026.10.20', isNew: false, title: '2026年8月、学生航空券でドイツへ。', href: 'https://www.instagram.com/p/DeuFmeTj7xb/' },
-    { source: 'Instagram', date: '2026.10.18', isNew: false, title: 'モッピーとハピタス、毎朝9時に還元率を自動記録する企画。', href: 'https://www.instagram.com/p/Deo9vOwj-16/' }
+    { source: 'Instagram', date: '2026.10.20', isNew: false, title: '2026年8月、学生航空券でドイツへ。', href: 'https://www.instagram.com/p/DeuFmeTj7xb/' }
   ];
   // FEED-DATA-END
 
