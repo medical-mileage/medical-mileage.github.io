@@ -4,29 +4,29 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '11月';
-  var pickUpdated = '2026-11-03';
+  var pickUpdated = '2026-11-04';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'JCBカードW', now: '7,000P', usual: '3,087P', up: 'いつもの約2.3倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' },
-    { rank: '02', site: 'ハピタス', name: 'JCBカードW', now: '10,000pt', usual: '5,591pt', up: 'いつもの約1.8倍', href: 'https://hapitas.jp/item/detail/itemid/73806/' },
-    { rank: '03', site: 'ハピタス', name: '三井住友カード ゴールド（NL）', now: '14,500pt', usual: '8,568pt', up: 'いつもの約1.7倍', href: 'https://hapitas.jp/item/detail/itemid/91938' },
-    { rank: '04', site: 'ハピタス', name: 'JALカード CLUB EST', now: '12,000pt', usual: '7,574pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/81412' }
+    { rank: '01', site: 'モッピー', name: 'JCBカードW', now: '7,000P', usual: '3,250P', up: 'いつもの約2.2倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' },
+    { rank: '02', site: 'ハピタス', name: '三井住友カード ゴールド（NL）', now: '14,500pt', usual: '8,724pt', up: 'いつもの約1.7倍', href: 'https://hapitas.jp/item/detail/itemid/91938' },
+    { rank: '03', site: 'ハピタス', name: 'JALカード CLUB EST', now: '12,000pt', usual: '7,687pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/81412' },
+    { rank: '04', site: 'ハピタス', name: 'Klook', now: '5.0%', usual: '3.3%', up: 'いつもの約1.5倍', href: 'https://hapitas.jp/item/detail/itemid/81523/' }
   ];
   // PICKUP-DATA-END
 
   // INVITE-DATA-START（ポイ活還元率トラッカーの「友達紹介 今月の比較」シートから更新。読者がもらえる特典だけを書く）
-  var inviteMonth = '2026年10月';
+  var inviteMonth = '2026年11月';
   var bonuses = {
-    moppy: { bonus: '最大2,000円分', detail: '12月末までに広告利用5,000P以上で＋2,000P（確定のログイン特典はなし）。3日連続ログインした人から抽選20名に10,000P', period: '10/31まで' },
-    hapitas: { bonus: '最大2,300円分', detail: 'ログインで100pt、広告利用3,000ptで＋1,000pt、5,000ptで＋400pt。ほかに新規登録者キャンペーン最大500pt、ハピタススマート300pt', period: '10/31まで' },
-    fancrew: { bonus: '4,500pt（450円分）', detail: '通常3,000ptからアップ中。会員登録→SMS認証→モニター応募・当選→提出物の提出でもらえます', period: '10/31まで' }
+    moppy: { bonus: '最大2,030円分', detail: '3日連続ログインで30P。さらに入会月の2か月後の月末までに広告利用5,000P以上で＋2,000P（抽選なし）', period: '11/30まで' },
+    hapitas: { bonus: '最大2,300円分', detail: 'ログインで100pt、広告利用3,000pt有効で＋1,000pt、5,000ptで＋400pt。ほかに新規登録者キャンペーン最大500pt、ハピタススマート300pt', period: '11/30まで' }
   };
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-11-03';
+  var feedUpdated = '2026-11-04';
   var feed = [
+    { source: 'Instagram', date: '2026.11.03', isNew: true, title: 'Pontaポイント、今JALマイルに替えると25%増えるって知っていましたか？', href: 'https://www.instagram.com/reel/DfR1QB0gqTG/' },
     { source: 'Instagram', date: '2026.11.02', isNew: true, title: 'マイルって、飛行機に乗らなくても貯まるって知っていましたか？', href: 'https://www.instagram.com/reel/DfPQci5gEw6/' },
-    { source: 'Instagram', date: '2026.10.31', isNew: true, title: 'ポイントサイトのポイント、JALマイルに変えきれずに余っていませんか？', href: 'https://www.instagram.com/p/DfLJq-UE5YK/' },
+    { source: 'Instagram', date: '2026.10.31', isNew: false, title: 'ポイントサイトのポイント、JALマイルに変えきれずに余っていませんか？', href: 'https://www.instagram.com/p/DfLJq-UE5YK/' },
     { source: 'Instagram', date: '2026.10.30', isNew: false, title: '飛行機の座席番号、「H」の次がいきなり「J」になっているのに気づいたことはありますか？', href: 'https://www.instagram.com/reel/DfHzf00kbxy/' },
     { source: 'Instagram', date: '2026.10.30', isNew: false, title: '飛行機の座席番号、「H」の次がいきなり「J」になっているのに気づいたことはありますか？', href: 'https://www.instagram.com/reel/DfHiFJKjQ9R/' },
     { source: 'Instagram', date: '2026.10.29', isNew: false, title: 'エミレーツのビジネスは、どの機材でも1-2-1だと思っていませんか？', href: 'https://www.instagram.com/p/DfE9YNYD_FJ/' },
@@ -35,8 +35,7 @@ window.SITE_DATA = (function () {
     { source: 'Instagram', date: '2026.10.27', isNew: false, title: '記念日のホテル、何で選んでいますか？', href: 'https://www.instagram.com/reel/De_zrHgjSlr/' },
     { source: 'Instagram', date: '2026.10.26', isNew: false, title: '香港での乗り継ぎが11時間以上。', href: 'https://www.instagram.com/p/De9PBsZo_Qy/' },
     { source: 'Instagram', date: '2026.10.25', isNew: false, title: 'ファーストクラスが、減っています', href: 'https://www.instagram.com/p/De6qMqfj2UA/' },
-    { source: 'Instagram', date: '2026.10.25', isNew: false, title: 'モッピーとハピタス、今日はどっちが得だと思いますか？', href: 'https://www.instagram.com/reel/De6nuNVjvoW/' },
-    { source: 'Instagram', date: '2026.10.23', isNew: false, title: '飛行機の座席番号、「H」の次が「J」になっているのに気づいたことはありますか？', href: 'https://www.instagram.com/p/De1-7OnD_Ht/' }
+    { source: 'Instagram', date: '2026.10.25', isNew: false, title: 'モッピーとハピタス、今日はどっちが得だと思いますか？', href: 'https://www.instagram.com/reel/De6nuNVjvoW/' }
   ];
   // FEED-DATA-END
 
