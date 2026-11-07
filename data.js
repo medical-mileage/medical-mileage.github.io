@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '11月';
-  var pickUpdated = '2026-11-07';
+  var pickUpdated = '2026-11-08';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'JCBカードW', now: '7,000P', usual: '3,667P', up: 'いつもの約1.9倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' },
-    { rank: '02', site: 'ハピタス', name: 'JCBカードW', now: '10,000pt', usual: '6,039pt', up: 'いつもの約1.7倍', href: 'https://hapitas.jp/item/detail/itemid/73806/' },
-    { rank: '03', site: 'ハピタス', name: 'リクルートカード', now: '4,000pt', usual: '2,442pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/49829/' },
-    { rank: '04', site: 'モッピー', name: 'リクルートカード', now: '4,000P', usual: '2,444P', up: 'いつもの約1.6倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=123793' }
+    { rank: '01', site: 'ハピタス', name: 'JCBカードW', now: '10,000pt', usual: '6,185pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/73806/' },
+    { rank: '02', site: 'ハピタス', name: 'リクルートカード', now: '4,000pt', usual: '2,500pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/49829/' },
+    { rank: '03', site: 'モッピー', name: 'リクルートカード', now: '4,000P', usual: '2,500P', up: 'いつもの約1.6倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=123793' },
+    { rank: '04', site: 'ハピタス', name: '三井住友カード ゴールド（NL）', now: '14,500pt', usual: '9,274pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/91938' }
   ];
   // PICKUP-DATA-END
 
@@ -22,11 +22,11 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-11-07';
+  var feedUpdated = '2026-11-08';
   var feed = [
     { source: 'Instagram', date: '2026.11.06', isNew: true, title: 'ビジネスとエコノミーの間に、もう1つ席があるって知っていましたか？', href: 'https://www.instagram.com/reel/DfZjqCaj1Ie/' },
     { source: 'Instagram', date: '2026.11.05', isNew: true, title: 'アメリカン航空が、ファーストクラスを売らなくなるって知っていましたか？', href: 'https://www.instagram.com/reel/DfW-3bSCcMk/' },
-    { source: 'Instagram', date: '2026.11.04', isNew: true, title: 'JALの空港ラウンジ、ビジネスクラスじゃなくても入れるって知っていましたか？', href: 'https://www.instagram.com/reel/DfUaCs2EqYE/' },
+    { source: 'Instagram', date: '2026.11.04', isNew: false, title: 'JALの空港ラウンジ、ビジネスクラスじゃなくても入れるって知っていましたか？', href: 'https://www.instagram.com/reel/DfUaCs2EqYE/' },
     { source: 'Instagram', date: '2026.11.03', isNew: false, title: 'Pontaポイント、今JALマイルに替えると25%増えるって知っていましたか？', href: 'https://www.instagram.com/reel/DfR1QB0gqTG/' },
     { source: 'Instagram', date: '2026.11.02', isNew: false, title: 'マイルって、飛行機に乗らなくても貯まるって知っていましたか？', href: 'https://www.instagram.com/reel/DfPQci5gEw6/' },
     { source: 'Instagram', date: '2026.10.31', isNew: false, title: 'ポイントサイトのポイント、JALマイルに変えきれずに余っていませんか？', href: 'https://www.instagram.com/p/DfLJq-UE5YK/' },
