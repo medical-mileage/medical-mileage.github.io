@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '11月';
-  var pickUpdated = '2026-11-08';
+  var pickUpdated = '2026-11-10';
   var picks = [
-    { rank: '01', site: 'ハピタス', name: 'JCBカードW', now: '10,000pt', usual: '6,185pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/73806/' },
-    { rank: '02', site: 'ハピタス', name: 'リクルートカード', now: '4,000pt', usual: '2,500pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/49829/' },
-    { rank: '03', site: 'モッピー', name: 'リクルートカード', now: '4,000P', usual: '2,500P', up: 'いつもの約1.6倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=123793' },
-    { rank: '04', site: 'ハピタス', name: '三井住友カード ゴールド（NL）', now: '14,500pt', usual: '9,274pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/91938' }
+    { rank: '01', site: 'ハピタス', name: '楽天証券', now: '25,000pt', usual: '16,069pt', up: 'いつもの約1.6倍', href: 'https://hapitas.jp/item/detail/itemid/35520/' },
+    { rank: '02', site: 'ハピタス', name: 'JALカード CLUB EST（20代限定）', now: '12,000pt', usual: '8,262pt', up: 'いつもより約45%アップ', href: 'https://hapitas.jp/item/detail/itemid/81412' },
+    { rank: '03', site: 'ハピタス', name: 'IHGホテルズ & リゾーツ', now: '4.0%', usual: '2.8%', up: 'いつもより約43%アップ', href: 'https://hapitas.jp/item/detail/itemid/72867' },
+    { rank: '04', site: 'モッピー', name: 'KKday', now: '8.0%', usual: '5.6%', up: 'いつもより約43%アップ', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=4835' }
   ];
   // PICKUP-DATA-END
 
@@ -22,10 +22,12 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-11-08';
+  var feedUpdated = '2026-11-10';
   var feed = [
-    { source: 'Instagram', date: '2026.11.06', isNew: true, title: 'ビジネスとエコノミーの間に、もう1つ席があるって知っていましたか？', href: 'https://www.instagram.com/reel/DfZjqCaj1Ie/' },
-    { source: 'Instagram', date: '2026.11.05', isNew: true, title: 'アメリカン航空が、ファーストクラスを売らなくなるって知っていましたか？', href: 'https://www.instagram.com/reel/DfW-3bSCcMk/' },
+    { source: 'Instagram', date: '2026.11.09', isNew: true, title: '空港のラウンジ、ゴールドカードで無料で入れるって知っていましたか？', href: 'https://www.instagram.com/reel/DfhSFQQDZCT/' },
+    { source: 'Instagram', date: '2026.11.08', isNew: true, title: '飛行機の非常口の席、だれでも座れるわけじゃないって知っていましたか？', href: 'https://www.instagram.com/reel/DfetNyIAXaM/' },
+    { source: 'Instagram', date: '2026.11.06', isNew: false, title: 'ビジネスとエコノミーの間に、もう1つ席があるって知っていましたか？', href: 'https://www.instagram.com/reel/DfZjqCaj1Ie/' },
+    { source: 'Instagram', date: '2026.11.05', isNew: false, title: 'アメリカン航空が、ファーストクラスを売らなくなるって知っていましたか？', href: 'https://www.instagram.com/reel/DfW-3bSCcMk/' },
     { source: 'Instagram', date: '2026.11.04', isNew: false, title: 'JALの空港ラウンジ、ビジネスクラスじゃなくても入れるって知っていましたか？', href: 'https://www.instagram.com/reel/DfUaCs2EqYE/' },
     { source: 'Instagram', date: '2026.11.03', isNew: false, title: 'Pontaポイント、今JALマイルに替えると25%増えるって知っていましたか？', href: 'https://www.instagram.com/reel/DfR1QB0gqTG/' },
     { source: 'Instagram', date: '2026.11.02', isNew: false, title: 'マイルって、飛行機に乗らなくても貯まるって知っていましたか？', href: 'https://www.instagram.com/reel/DfPQci5gEw6/' },
@@ -33,9 +35,7 @@ window.SITE_DATA = (function () {
     { source: 'Instagram', date: '2026.10.30', isNew: false, title: '飛行機の座席番号、「H」の次がいきなり「J」になっているのに気づいたことはありますか？', href: 'https://www.instagram.com/reel/DfHzf00kbxy/' },
     { source: 'Instagram', date: '2026.10.30', isNew: false, title: '飛行機の座席番号、「H」の次がいきなり「J」になっているのに気づいたことはありますか？', href: 'https://www.instagram.com/reel/DfHiFJKjQ9R/' },
     { source: 'Instagram', date: '2026.10.29', isNew: false, title: 'エミレーツのビジネスは、どの機材でも1-2-1だと思っていませんか？', href: 'https://www.instagram.com/p/DfE9YNYD_FJ/' },
-    { source: 'Instagram', date: '2026.10.28', isNew: false, title: '「A350ならQsuite」だと思っていませんか？', href: 'https://www.instagram.com/reel/DfCc-t8AQcz/' },
-    { source: 'Instagram', date: '2026.10.27', isNew: false, title: 'Trip.comでホテルを予約するとき、どこを経由していますか？', href: 'https://www.instagram.com/reel/DfAAzO8ib6m/' },
-    { source: 'Instagram', date: '2026.10.27', isNew: false, title: '記念日のホテル、何で選んでいますか？', href: 'https://www.instagram.com/reel/De_zrHgjSlr/' }
+    { source: 'Instagram', date: '2026.10.28', isNew: false, title: '「A350ならQsuite」だと思っていませんか？', href: 'https://www.instagram.com/reel/DfCc-t8AQcz/' }
   ];
   // FEED-DATA-END
 
