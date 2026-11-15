@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '11月';
-  var pickUpdated = '2026-11-15';
+  var pickUpdated = '2026-11-16';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'Klook', now: '13.0%', usual: '6.0%', up: 'いつもの約2.2倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6314' },
-    { rank: '02', site: 'モッピー', name: 'JTB（国内）', now: '4.0%', usual: '1.9%', up: 'いつもの約2.1倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=1820' },
-    { rank: '03', site: 'ハピタス', name: 'JTB（海外）', now: '2.4%', usual: '1.2%', up: 'いつもの約2.0倍', href: 'https://hapitas.jp/item/detail/itemid/58872/' },
-    { rank: '04', site: 'モッピー', name: 'リクルートカード', now: '5,000P', usual: '2,543P', up: 'いつもの約2.0倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=123793' }
+    { rank: '01', site: 'モッピー', name: 'JCBカードW', now: '14,000P', usual: '4,250P', up: 'いつもの約3.3倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' },
+    { rank: '02', site: 'ハピタス', name: 'JCBカードW', now: '14,000pt', usual: '6,886pt', up: 'いつもの約2.0倍', href: 'https://hapitas.jp/item/detail/itemid/73806/' },
+    { rank: '03', site: 'ハピタス', name: 'Yahoo!トラベル（JAL便パック）', now: '2.0%', usual: '1.0%', up: 'いつもの約2.0倍', href: 'https://hapitas.jp/item/detail/itemid/88927/' },
+    { rank: '04', site: 'ハピタス', name: 'au PAY ゴールドカード', now: '17,500pt', usual: '11,630pt', up: 'いつもの約1.5倍', href: 'https://hapitas.jp/item/detail/itemid/90024' }
   ];
   // PICKUP-DATA-END
 
@@ -22,10 +22,11 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-11-15';
+  var feedUpdated = '2026-11-16';
   var feed = [
+    { source: 'Instagram', date: '2026.11.15', isNew: true, title: 'ライター、飛行機に何個まで持ち込めるか知っていましたか？', href: 'https://www.instagram.com/reel/Dfwuxsuj-Y-/' },
     { source: 'Instagram', date: '2026.11.13', isNew: true, title: '国内線の機内Wi-Fi、JALもANAも無料って知っていましたか？', href: 'https://www.instagram.com/reel/Dfr7m7jld_k/' },
-    { source: 'Instagram', date: '2026.11.12', isNew: true, title: '飛行機の中に、扉が閉まる個室があるって知っていましたか？', href: 'https://www.instagram.com/reel/DfpAZMxiWAg/' },
+    { source: 'Instagram', date: '2026.11.12', isNew: false, title: '飛行機の中に、扉が閉まる個室があるって知っていましたか？', href: 'https://www.instagram.com/reel/DfpAZMxiWAg/' },
     { source: 'Instagram', date: '2026.11.11', isNew: false, title: '飲み物の持ち込み、国内線と国際線でルールが違うって知っていましたか？', href: 'https://www.instagram.com/reel/DfmbmaVkicp/' },
     { source: 'Instagram', date: '2026.11.10', isNew: false, title: 'モバイルバッテリー、飛行機の中で使うのNGになったって知っていましたか？', href: 'https://www.instagram.com/reel/Dfj2zU5GiEf/' },
     { source: 'Instagram', date: '2026.11.09', isNew: false, title: '空港のラウンジ、ゴールドカードで無料で入れるって知っていましたか？', href: 'https://www.instagram.com/reel/DfhSFQQDZCT/' },
@@ -34,8 +35,7 @@ window.SITE_DATA = (function () {
     { source: 'Instagram', date: '2026.11.05', isNew: false, title: 'アメリカン航空が、ファーストクラスを売らなくなるって知っていましたか？', href: 'https://www.instagram.com/reel/DfW-3bSCcMk/' },
     { source: 'Instagram', date: '2026.11.04', isNew: false, title: 'JALの空港ラウンジ、ビジネスクラスじゃなくても入れるって知っていましたか？', href: 'https://www.instagram.com/reel/DfUaCs2EqYE/' },
     { source: 'Instagram', date: '2026.11.03', isNew: false, title: 'Pontaポイント、今JALマイルに替えると25%増えるって知っていましたか？', href: 'https://www.instagram.com/reel/DfR1QB0gqTG/' },
-    { source: 'Instagram', date: '2026.11.02', isNew: false, title: 'マイルって、飛行機に乗らなくても貯まるって知っていましたか？', href: 'https://www.instagram.com/reel/DfPQci5gEw6/' },
-    { source: 'Instagram', date: '2026.10.31', isNew: false, title: 'ポイントサイトのポイント、JALマイルに変えきれずに余っていませんか？', href: 'https://www.instagram.com/p/DfLJq-UE5YK/' }
+    { source: 'Instagram', date: '2026.11.02', isNew: false, title: 'マイルって、飛行機に乗らなくても貯まるって知っていましたか？', href: 'https://www.instagram.com/reel/DfPQci5gEw6/' }
   ];
   // FEED-DATA-END
 
