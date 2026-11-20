@@ -4,11 +4,11 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '11月';
-  var pickUpdated = '2026-11-20';
+  var pickUpdated = '2026-11-21';
   var picks = [
-    { rank: '01', site: 'モッピー', name: 'JCBカードW', now: '14,000P', usual: '5,225P', up: 'いつもの約2.7倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' },
-    { rank: '02', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '1.5%', up: 'いつもの約1.9倍', href: 'https://hapitas.jp/item/detail/itemid/92712' },
-    { rank: '03', site: 'ハピタス', name: 'JCBカードW', now: '14,000pt', usual: '7,615pt', up: 'いつもの約1.8倍', href: 'https://hapitas.jp/item/detail/itemid/73806/' },
+    { rank: '01', site: 'モッピー', name: 'JCBカードW', now: '14,000P', usual: '5,439P', up: 'いつもの約2.6倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' },
+    { rank: '02', site: 'ハピタス', name: 'JTB（海外）', now: '2.4%', usual: '1.2%', up: 'いつもの約2.0倍', href: 'https://hapitas.jp/item/detail/itemid/58872/' },
+    { rank: '03', site: 'ハピタス', name: 'カタール航空', now: '2.8%', usual: '1.5%', up: 'いつもの約1.9倍', href: 'https://hapitas.jp/item/detail/itemid/92712' },
     { rank: '04', site: 'ハピタス', name: 'Yahoo!トラベル（JAL便パック）', now: '2.0%', usual: '1.1%', up: 'いつもの約1.8倍', href: 'https://hapitas.jp/item/detail/itemid/88927/' }
   ];
   // PICKUP-DATA-END
@@ -22,20 +22,20 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-11-20';
+  var feedUpdated = '2026-11-21';
   var feed = [
+    { source: 'note', date: '2026.11.20', isNew: true, title: '手元の87,097JALマイルでファーストは取れる？座席オタクが5社を比較', href: 'https://note.com/kentytimes_com/n/n5b4f9135e7aa' },
+    { source: 'note', date: '2026.11.20', isNew: true, title: 'ドア付き新ビジネスクラス3社の登場時期｜2027年に乗るなら今どのマイルを貯める？', href: 'https://note.com/kentytimes_com/n/n36ff86c68d9b' },
+    { source: 'note', date: '2026.11.20', isNew: true, title: '【12月31日まで】Ponta→JALが25%増量「100P＝62マイル」交換前に確かめる5つのこと', href: 'https://note.com/kentytimes_com/n/n4b01cc8606c0' },
+    { source: 'note', date: '2026.11.20', isNew: true, title: 'エコノミーの“当たり席”は座席番号より先に「機材」で決まる【2026年冬版】', href: 'https://note.com/kentytimes_com/n/n6fe4fb440f20' },
+    { source: 'note', date: '2026.11.20', isNew: true, title: '【2026年冬版】ビジネスクラス座席指定ガイド｜5社9座席の選ぶべき列・避けたい列', href: 'https://note.com/kentytimes_com/n/nc1aa2210cec5' },
+    { source: 'note', date: '2026.11.20', isNew: true, title: '【知らないと損】ANA・JALマイルの「期限と制度変更」5つを日付順に整理', href: 'https://note.com/kentytimes_com/n/nff3ad1af23e6' },
+    { source: 'Instagram', date: '2026.11.20', isNew: true, title: '乗り継ぎが11時間。', href: 'https://www.instagram.com/reel/Df9mwPQDmd_/' },
     { source: 'Instagram', date: '2026.11.19', isNew: true, title: '飛行機は全部禁煙なのに、トイレのドアに灰皿があるって知っていましたか？', href: 'https://www.instagram.com/reel/Df7B9dlEw8M/' },
     { source: 'Instagram', date: '2026.11.18', isNew: true, title: '同じローマ行きの特典航空券、乗る航空会社で15,000マイルも違うって知っていましたか？', href: 'https://www.instagram.com/reel/Df4dLdmkrHG/' },
-    { source: 'Instagram', date: '2026.11.17', isNew: true, title: 'スマホの機内モード、離陸のときも使えるって知っていましたか？', href: 'https://www.instagram.com/reel/Df1-BWNmcx6/' },
+    { source: 'Instagram', date: '2026.11.17', isNew: false, title: 'スマホの機内モード、離陸のときも使えるって知っていましたか？', href: 'https://www.instagram.com/reel/Df1-BWNmcx6/' },
     { source: 'Instagram', date: '2026.11.16', isNew: false, title: '飛行機の座席、DもEもFもない飛行機があるって知っていましたか？', href: 'https://www.instagram.com/reel/DfzTkWuiDrN/' },
-    { source: 'Instagram', date: '2026.11.15', isNew: false, title: 'ライター、飛行機に何個まで持ち込めるか知っていましたか？', href: 'https://www.instagram.com/reel/Dfwuxsuj-Y-/' },
-    { source: 'Instagram', date: '2026.11.13', isNew: false, title: '国内線の機内Wi-Fi、JALもANAも無料って知っていましたか？', href: 'https://www.instagram.com/reel/Dfr7m7jld_k/' },
-    { source: 'Instagram', date: '2026.11.12', isNew: false, title: '飛行機の中に、扉が閉まる個室があるって知っていましたか？', href: 'https://www.instagram.com/reel/DfpAZMxiWAg/' },
-    { source: 'Instagram', date: '2026.11.11', isNew: false, title: '飲み物の持ち込み、国内線と国際線でルールが違うって知っていましたか？', href: 'https://www.instagram.com/reel/DfmbmaVkicp/' },
-    { source: 'Instagram', date: '2026.11.10', isNew: false, title: 'モバイルバッテリー、飛行機の中で使うのNGになったって知っていましたか？', href: 'https://www.instagram.com/reel/Dfj2zU5GiEf/' },
-    { source: 'Instagram', date: '2026.11.09', isNew: false, title: '空港のラウンジ、ゴールドカードで無料で入れるって知っていましたか？', href: 'https://www.instagram.com/reel/DfhSFQQDZCT/' },
-    { source: 'Instagram', date: '2026.11.08', isNew: false, title: '飛行機の非常口の席、だれでも座れるわけじゃないって知っていましたか？', href: 'https://www.instagram.com/reel/DfetNyIAXaM/' },
-    { source: 'Instagram', date: '2026.11.06', isNew: false, title: 'ビジネスとエコノミーの間に、もう1つ席があるって知っていましたか？', href: 'https://www.instagram.com/reel/DfZjqCaj1Ie/' }
+    { source: 'Instagram', date: '2026.11.15', isNew: false, title: 'ライター、飛行機に何個まで持ち込めるか知っていましたか？', href: 'https://www.instagram.com/reel/Dfwuxsuj-Y-/' }
   ];
   // FEED-DATA-END
 
