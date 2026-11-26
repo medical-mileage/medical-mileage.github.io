@@ -4,12 +4,12 @@ window.SITE_DATA = (function () {
 
   // PICKUP-DATA-START（ポイ活還元率トラッカーの「比較」シートから毎日更新）
   var pickMonth = '11月';
-  var pickUpdated = '2026-11-26';
+  var pickUpdated = '2026-11-27';
   var picks = [
     { rank: '01', site: 'モッピー', name: 'カタール航空', now: '3.5%', usual: '1.1%', up: 'いつもの約3.2倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6749' },
     { rank: '02', site: 'モッピー', name: 'Trip.com（航空券）', now: '3.0%', usual: '1.1%', up: 'いつもの約2.7倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=4876' },
-    { rank: '03', site: 'モッピー', name: 'JCBカードW', now: '14,000P', usual: '6,370P', up: 'いつもの約2.2倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' },
-    { rank: '04', site: 'モッピー', name: 'Skyscanner（ホテル）', now: '4.0%', usual: '2.0%', up: 'いつもの約2.0倍', href: 'https://pc.moppy.jp/shopping/detail.php?site_id=6830' }
+    { rank: '03', site: 'ハピタス', name: 'JCBカードW', now: '20,000pt', usual: '8,717pt', up: 'いつもの約2.3倍', href: 'https://hapitas.jp/item/detail/itemid/73806/' },
+    { rank: '04', site: 'モッピー', name: 'JCBカードW', now: '14,000P', usual: '6,532P', up: 'いつもの約2.1倍', href: 'https://pc.moppy.jp/ad/detail.php?site_id=140425' }
   ];
   // PICKUP-DATA-END
 
@@ -22,11 +22,12 @@ window.SITE_DATA = (function () {
   // INVITE-DATA-END
 
   // FEED-DATA-START（Instagram・noteの新着。毎日自動更新。新しい順）
-  var feedUpdated = '2026-11-26';
+  var feedUpdated = '2026-11-27';
   var feed = [
+    { source: 'Instagram', date: '2026.11.26', isNew: true, title: '飛行機で耳が痛くなる理由、知っていましたか？', href: 'https://www.instagram.com/reel/DgNDhVwtW47/' },
     { source: 'Instagram', date: '2026.11.25', isNew: true, title: 'パスポート、7月から7,000円も安くなったって知っていましたか？', href: 'https://www.instagram.com/reel/DgKeu41PRWj/' },
     { source: 'Instagram', date: '2026.11.24', isNew: true, title: '夜の飛行機、離着陸のときに機内が暗くなる理由、知っていましたか？', href: 'https://www.instagram.com/reel/DgH59cUiYVg/' },
-    { source: 'Instagram', date: '2026.11.23', isNew: true, title: '窓側の席を選んだのに、窓がない…ってことがあるの、知っていましたか？', href: 'https://www.instagram.com/reel/DgFVI-SFcVn/' },
+    { source: 'Instagram', date: '2026.11.23', isNew: false, title: '窓側の席を選んだのに、窓がない…ってことがあるの、知っていましたか？', href: 'https://www.instagram.com/reel/DgFVI-SFcVn/' },
     { source: 'note', date: '2026.11.20', isNew: false, title: '手元の87,097JALマイルでファーストは取れる？座席オタクが5社を比較', href: 'https://note.com/kentytimes_com/n/n5b4f9135e7aa' },
     { source: 'note', date: '2026.11.20', isNew: false, title: 'ドア付き新ビジネスクラス3社の登場時期｜2027年に乗るなら今どのマイルを貯める？', href: 'https://note.com/kentytimes_com/n/n36ff86c68d9b' },
     { source: 'note', date: '2026.11.20', isNew: false, title: '【12月31日まで】Ponta→JALが25%増量「100P＝62マイル」交換前に確かめる5つのこと', href: 'https://note.com/kentytimes_com/n/n4b01cc8606c0' },
@@ -34,8 +35,7 @@ window.SITE_DATA = (function () {
     { source: 'note', date: '2026.11.20', isNew: false, title: '【2026年冬版】ビジネスクラス座席指定ガイド｜5社9座席の選ぶべき列・避けたい列', href: 'https://note.com/kentytimes_com/n/nc1aa2210cec5' },
     { source: 'note', date: '2026.11.20', isNew: false, title: '【知らないと損】ANA・JALマイルの「期限と制度変更」5つを日付順に整理', href: 'https://note.com/kentytimes_com/n/nff3ad1af23e6' },
     { source: 'Instagram', date: '2026.11.20', isNew: false, title: '乗り継ぎが11時間。', href: 'https://www.instagram.com/reel/Df9mwPQDmd_/' },
-    { source: 'Instagram', date: '2026.11.19', isNew: false, title: '飛行機は全部禁煙なのに、トイレのドアに灰皿があるって知っていましたか？', href: 'https://www.instagram.com/reel/Df7B9dlEw8M/' },
-    { source: 'Instagram', date: '2026.11.18', isNew: false, title: '同じローマ行きの特典航空券、乗る航空会社で15,000マイルも違うって知っていましたか？', href: 'https://www.instagram.com/reel/Df4dLdmkrHG/' }
+    { source: 'Instagram', date: '2026.11.19', isNew: false, title: '飛行機は全部禁煙なのに、トイレのドアに灰皿があるって知っていましたか？', href: 'https://www.instagram.com/reel/Df7B9dlEw8M/' }
   ];
   // FEED-DATA-END
 
